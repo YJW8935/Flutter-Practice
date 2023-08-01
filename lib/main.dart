@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("간단한 테스트"),
+        title: Text("내 성격과 닮은 동물은?"),
         backgroundColor: Colors.green,
       ),
       body: (questionIndex < questionList.length)
